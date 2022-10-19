@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edNome" type="id" />
+    <item name="edUser" type="id" />
+    <item name="edPass1" type="id" />
+</resources>

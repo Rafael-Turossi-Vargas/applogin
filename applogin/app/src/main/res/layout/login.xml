@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:paddingTop="32dp"
+        android:background="@color/purple"
+        android:layout_height="100dp"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="170dp"
+        android:id="@+id/edLog"
+        android:layout_below="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:hint="    Digte seu Login"
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/edSenha"
+        android:layout_below="@+id/edLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:hint="    Digte seu Login"
+        />
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_below="@+id/edSenha"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple"
+        android:text="Entrar"
+        android:textSize="30dp"
+        />
+
+
+</RelativeLayout>
